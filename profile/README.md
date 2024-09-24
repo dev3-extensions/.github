@@ -1,95 +1,24 @@
-# Dev3 Toolkit
+<div align="center">
 
-Dev3 Toolkit is a simple Chrome extension that contains four components targeted at power users and developers.
+![CleanShot 2024-09-22 at 11 34 13](https://github.com/user-attachments/assets/d2151b9b-14c9-45bc-a2a0-ddfa25d2bbca)
 
-## Getting Started
+# 🚀  Dev3 Extensions
 
-### Prerequisites
+Chrome Extensions for Developers and Power Users
 
-You will need the following to run this project:
+</div>
 
-- Node.js
+Welcome to the Dev3 Extensions organization! We build powerful Chrome extensions tailored for developers and power users, providing a seamless experience with tools that enhance productivity, simplify workflows, and offer insightful utilities for modern web development.
 
-  Install Node.js from [here](https://nodejs.org/en/download/), using your preferred package manager (Choco, Scoop, brew, etc) or using the following commands:
+## 🌟 Main Project
 
-  ```sh
-  # On Windows
-  winget install OpenJS.NodeJS # or scoop install nodejs
+- [Dev3 Toolkit](https://github.com/dev3-extensions/toolkit) - A feature-packed Chrome extension with utilities like a password manager, IndexedDB viewer, HTTP packet sniffer, and browser data cleaner.
 
-  # On Linux (Ubuntu)
-  curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
-  sudo apt-get install -y nodejs
-  ```
+## ✌️ Team
 
-### Installation
+- [Aryan Prince](https://x.com/aryxnprince)
+- [Andrea La Fauci De Leo](https://github.com/Bosurgi)
+- [Lewis Mann](https://github.com/LEDMann)
+- [Lewis Johnson](https://github.com/lewisj576)
 
-1. Clone the repo
-
-2. Copy `.env.example` to `.env` and update the `VITE_MASTER_KEY` value
-
-   ```sh
-   cp .env.example .env
-   ```
-
-   Use a random 32-character string for better security. You can generate one securely using the following command:
-
-   ```sh
-   openssl rand -base64 24
-   ```
-
-   Example key:
-
-   ```ts
-   VITE_MASTER_KEY="xcQ+U#LIDUS^kY&8BZPCKFV+Sy^xSX7A"
-   ```
-
-3. Install NPM packages
-
-   ```sh
-   npm install
-   ```
-
-4. (Optional) Run the development server
-
-   ```sh
-   npm run dev
-   ```
-
-5. Build the extension
-
-   ```sh
-    npm run build
-   ```
-
-6. Load the extension in Chrome (or any Chromium-based browser)
-
-   1. Open the Extension Management page by navigating to `chrome://extensions`.
-   2. Enable Developer Mode by clicking the toggle switch next to Developer mode.
-   3. Click the LOAD UNPACKED button and select the `dist` directory.
-
-7. Profit! :tada:
-
-## Documentation
-
-Run the following commands to generate the full documentation based on JSDoc comments in the code.
-
-1. Install [TypeDoc](https://typedoc.org/)
-
-```sh
-   npm install --save-dev typedoc
-```
-
-2. Generate the documentation with the following command
-
-```sh
-   npm run docs
-```
-
-3. The documentation can be found in `docs/index.html`
-
-## Recommended VS Code Extensions for Development
-
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - for code formatting
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - for autocomplete in Tailwind CSS classes
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - for linting and error checking
-- [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag) - for auto-renaming and auto-completing tags in HTML or React
+Head over to the [Dev3 Toolkit](https://github.com/dev3-extensions/toolkit) repository for more details on our extension and start exploring the utilities designed to make your life easier as a developer!
